@@ -1,28 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>zkevin&#39;s blog</title>
-  
-  <link href="/atom.xml" rel="self"/>
-  
-  <link href="http://blog.zkevin.me/"/>
-  <updated>2018-02-01T09:33:51.000Z</updated>
-  <id>http://blog.zkevin.me/</id>
-  
-  <author>
-    <name>zkevin</name>
-    
-  </author>
-  
-  <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>skywalking的ES数据模型</title>
-    <link href="http://blog.zkevin.me/2018/02/01/skywalking-es-schema/"/>
-    <id>http://blog.zkevin.me/2018/02/01/skywalking-es-schema/</id>
-    <published>2018-02-01T08:00:01.000Z</published>
-    <updated>2018-02-01T09:33:51.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>全文主要讲解skywalking-3.x在elasticsearch中的数据模型及涉及到的数据操作，分为客户端注册、JVM性能指标、调用链跟踪片段三个部分。</p>
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description"><title>skywalking的ES数据模型 | zkevin's blog</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/normalize/7.0.0/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">skywalking的ES数据模型</h1><a id="logo" href="/.">zkevin's blog</a><p class="description"></p></div><div id="nav-menu"><a href="/"><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 文章</i></a><a href="https://github.com/zhangkewei" target="_blank"><i class="fa icon-tree"> 项目</i></a><a href="/atom.xml" target="_blank"><i class="fa fa-rss"> 订阅</i></a></div></div><div id="layout" class="pure-g"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">skywalking的ES数据模型</h1><div class="post-meta">Feb 1, 2018<span> | </span><span class="category"><a href="/categories/skywalking/">skywalking</a></span></div><a data-disqus-identifier="2018/02/01/skywalking-es-schema/" href="/2018/02/01/skywalking-es-schema/#disqus_thread" class="disqus-comment-count"></a><div class="post-content"><p>全文主要讲解skywalking-3.x在elasticsearch中的数据模型及涉及到的数据操作，分为客户端注册、JVM性能指标、调用链跟踪片段三个部分。</p>
 <p>skywalking-5.x即将推出，后续继续跟进</p>
 <hr>
 <h1 id="客户端注册"><a href="#客户端注册" class="headerlink" title="客户端注册"></a>客户端注册</h1><ul>
@@ -240,160 +216,36 @@
 </ul>
 </li>
 </ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;全文主要讲解skywalking-3.x在elasticsearch中的数据模型及涉及到的数据操作，分为客户端注册、JVM性能指标、调用链跟踪片段三个部分。&lt;/p&gt;
-&lt;p&gt;skywalking-5.x即将推出，后续继续跟进&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&quot;客户端注册&quot;&gt;&lt;
-    
-    </summary>
-    
-      <category term="skywalking" scheme="http://blog.zkevin.me/categories/skywalking/"/>
-    
-    
-      <category term="skywalking" scheme="http://blog.zkevin.me/tags/skywalking/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>书单</title>
-    <link href="http://blog.zkevin.me/2018/02/01/booklist/"/>
-    <id>http://blog.zkevin.me/2018/02/01/booklist/</id>
-    <published>2018-02-01T07:34:24.000Z</published>
-    <updated>2018-02-01T09:41:12.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="书单"><a href="#书单" class="headerlink" title="书单"></a>书单</h1><ul>
-<li>基础修养<ul>
-<li>计算机是怎样跑起来的</li>
-<li>编码：隐藏在计算机背后的语</li>
-<li>程序员的自我修养：链接、装载与库</li>
-<li>图解HTTP</li>
-<li>算法图解</li>
-<li>HTTP权威指南</li>
-<li>学习正则表达式</li>
-</ul>
-</li>
-<li>JAVA基础<ul>
-<li>effective java</li>
-<li>Java加密与解密的艺术</li>
-<li>Java程序性能优化  让你的Java程序更快、更稳定</li>
-<li>java性能权威指南</li>
-<li>重构：改善既有代码的设计</li>
-</ul>
-</li>
-<li>开发框架<ul>
-<li>Java EE开发的颠覆者:Spring Boot实战</li>
-<li>深入分析java web内幕</li>
-<li>Spring 实战</li>
-</ul>
-</li>
-<li>设计模式<ul>
-<li>漫谈设计模式</li>
-<li>大话设计模式</li>
-<li>设计模式之禅</li>
-</ul>
-</li>
-<li>JAVA虚拟机<ul>
-<li>Java虚拟机精讲</li>
-<li>深入理解Java虚拟机：JVM高级特性与最佳实践</li>
-<li>HotSpot实战    </li>
-<li>java虚拟机规范</li>
-</ul>
-</li>
-<li>多线程并发编程<ul>
-<li>Java并发编程实战</li>
-<li>Java虚拟机并发编程</li>
-<li>Java并发编程的艺术</li>
-<li>Java并发编程设计模式与原则</li>
-<li>Scala程序设计：java 虚拟机多核编程实战</li>
-</ul>
-</li>
-<li>分布式系统设计与开发<ul>
-<li>zookeeper分布式过程协同技术详解</li>
-<li>分布式Java应用:基础与实践</li>
-<li>大型网站系统与JAVA中间件实践</li>
-<li>大规模分布式存储系统-原理解析及架构实战</li>
-</ul>
-</li>
-<li>大局观<ul>
-<li>淘宝技术这十年</li>
-<li>构建高性能web站点</li>
-<li>大型网站技术架构：核心原理与案例分析</li>
-<li>企业IT架构转型之道</li>
-</ul>
-</li>
-<li>大数据<ul>
-<li>HADOOP基础教程</li>
-</ul>
-</li>
-<li>中间件<ul>
-<li>Redis设计与实现</li>
-<li>实战Nginx:取代Apache的高性能Web服务器</li>
-</ul>
-</li>
-<li>项目配置与管理<ul>
-<li>项目自动化之道</li>
-</ul>
-</li>
-<li>Ruby<ul>
-<li>Ruby元编程</li>
-<li>Ruby Programming</li>
-</ul>
-</li>
-<li>js<ul>
-<li>你不知道的javascript上卷     </li>
-<li>你不知道的javascript中卷</li>
-<li>Node即学即用</li>
-<li>Node+Web开发</li>
-</ul>
-</li>
-<li>在读<ul>
-<li>架构真经</li>
-<li>Hadoop技术内幕：深入解析MapReduce 架构设计与实现原理</li>
-<li>ElasticSearch:权威指南</li>
-</ul>
-</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;书单&quot;&gt;&lt;a href=&quot;#书单&quot; class=&quot;headerlink&quot; title=&quot;书单&quot;&gt;&lt;/a&gt;书单&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;基础修养&lt;ul&gt;
-&lt;li&gt;计算机是怎样跑起来的&lt;/li&gt;
-&lt;li&gt;编码：隐藏在计算机背后的语&lt;/li&gt;
-&lt;li&gt;程序员的自我修养
-    
-    </summary>
-    
-      <category term="架构师" scheme="http://blog.zkevin.me/categories/%E6%9E%B6%E6%9E%84%E5%B8%88/"/>
-    
-    
-      <category term="书单" scheme="http://blog.zkevin.me/tags/%E4%B9%A6%E5%8D%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>my blog</title>
-    <link href="http://blog.zkevin.me/2017/08/10/me/"/>
-    <id>http://blog.zkevin.me/2017/08/10/me/</id>
-    <published>2017-08-10T02:03:30.000Z</published>
-    <updated>2018-02-01T09:39:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Here is my blog !</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Here is my blog !&lt;/p&gt;
-
-    
-    </summary>
-    
-    
-  </entry>
-  
-</feed>
+</div><div class="tags"><a href="/tags/skywalking/">skywalking</a></div><div class="post-nav"><a href="/2018/02/01/booklist/" class="next">书单</a></div><div id="disqus_thread"><div class="btn_click_load"><button class="disqus_click_btn">阅读评论 「请确保 disqus.com 可以正常加载」</button></div><script>var disqus_shortname = 'blog-zkevin-me';
+var disqus_identifier = '2018/02/01/skywalking-es-schema/';
+var disqus_title = 'skywalking的ES数据模型';
+var disqus_url = 'http://blog.zkevin.me/2018/02/01/skywalking-es-schema/';
+$('.btn_click_load').click(function() {
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+  $('.btn_click_load').css('display','none');
+});
+$.ajax({
+  url: 'https://disqus.com/next/config.json',
+  timeout: 3000,
+  type: 'GET',
+  success: (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    $('.btn_click_load').css('display','none');
+  })(),
+  error: function() {
+    $('.btn_click_load').css('display','block');
+  }
+});</script><script id="dsq-count-scr" src="//blog-zkevin-me.disqus.com/count.js" async></script></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><form action="//www.baidu.com/baidu" method="get" accept-charset="utf-8" target="_blank" class="search-form"><input type="search" name="word" maxlength="20" placeholder="Search"/><input type="hidden" name="si" value="http://blog.zkevin.me"/><input name="tn" type="hidden" value="bds"/><input name="cl" type="hidden" value="3"/><input name="ct" type="hidden" value="2097152"/><input name="s" type="hidden" value="on"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/skywalking/">skywalking</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/架构师/">架构师</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/书单/" style="font-size: 15px;">书单</a> <a href="/tags/skywalking/" style="font-size: 15px;">skywalking</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2018/02/01/skywalking-es-schema/">skywalking的ES数据模型</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/02/01/booklist/">书单</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/08/10/me/">my blog</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-comment-o"> 最近评论</i></div><script type="text/javascript" src="//blog-zkevin-me.disqus.com/recent_comments_widget.js?num_items=5&amp;hide_avatars=1&amp;avatar_size=32&amp;excerpt_length=20&amp;hide_mods=1"></script></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2018 <a href="/." rel="nofollow">zkevin's blog.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a id="rocket" href="#top" class="show"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.bootcss.com/fancybox/3.1.20/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/fancybox/3.1.20/jquery.fancybox.min.css"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?91d8ea2133dad062924cdc8652d61476";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+  })();
+</script><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>
