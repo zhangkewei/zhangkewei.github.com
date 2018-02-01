@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.zkevin.me/"/>
-  <updated>2018-02-01T07:53:45.000Z</updated>
+  <updated>2018-02-01T07:58:35.000Z</updated>
   <id>http://blog.zkevin.me/</id>
   
   <author>
@@ -20,19 +20,17 @@
     <link href="http://blog.zkevin.me/2018/02/01/booklist/"/>
     <id>http://blog.zkevin.me/2018/02/01/booklist/</id>
     <published>2018-02-01T07:34:24.000Z</published>
-    <updated>2018-02-01T07:53:45.000Z</updated>
+    <updated>2018-02-01T07:58:35.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="书单"><a href="#书单" class="headerlink" title="书单"></a>书单</h1><ul>
-<li><p>js</p>
-<ul>
+<li>js<ul>
 <li>你不知道的javascript上卷     </li>
 <li>你不知道的javascript中卷</li>
 <li>Node即学即用</li>
 <li>Node+Web开发</li>
 </ul>
 </li>
-<li><p>基础修养</p>
-<ul>
+<li>基础修养<ul>
 <li>计算机是怎样跑起来的</li>
 <li>编码：隐藏在计算机背后的语</li>
 <li>程序员的自我修养：链接、装载与库</li>
@@ -42,8 +40,7 @@
 <li>学习正则表达式</li>
 </ul>
 </li>
-<li><p>JAVA基础</p>
-<ul>
+<li>JAVA基础<ul>
 <li>effective java</li>
 <li>Java加密与解密的艺术</li>
 <li>Java程序性能优化  让你的Java程序更快、更稳定</li>
@@ -51,30 +48,26 @@
 <li>重构：改善既有代码的设计</li>
 </ul>
 </li>
-<li><p>开发框架</p>
-<ul>
+<li>开发框架<ul>
 <li>Java EE开发的颠覆者:Spring Boot实战</li>
 <li>深入分析java web内幕</li>
 <li>Spring 实战</li>
 </ul>
 </li>
-<li><p>设计模式</p>
-<ul>
+<li>设计模式<ul>
 <li>漫谈设计模式</li>
 <li>大话设计模式</li>
 <li>设计模式之禅</li>
 </ul>
 </li>
-<li><p>JAVA虚拟机</p>
-<ul>
+<li>JAVA虚拟机<ul>
 <li>Java虚拟机精讲</li>
 <li>深入理解Java虚拟机：JVM高级特性与最佳实践</li>
 <li>HotSpot实战    </li>
 <li>java虚拟机规范</li>
 </ul>
 </li>
-<li><p>多线程并发编程</p>
-<ul>
+<li>多线程并发编程<ul>
 <li>Java并发编程实战</li>
 <li>Java虚拟机并发编程</li>
 <li>Java并发编程的艺术</li>
@@ -82,8 +75,7 @@
 <li>Scala程序设计：java 虚拟机多核编程实战</li>
 </ul>
 </li>
-<li><p>分布式系统设计与开发</p>
-<ul>
+<li>分布式系统设计与开发<ul>
 <li>zookeeper分布式过程协同技术详解</li>
 <li>分布式Java应用:基础与实践</li>
 <li>大型网站系统与JAVA中间件实践</li>
@@ -97,30 +89,24 @@
 <li>企业IT架构转型之道</li>
 </ul>
 </li>
-<li><p>大数据</p>
-<ul>
+<li>大数据<ul>
 <li>HADOOP基础教程</li>
 </ul>
 </li>
-<li><p>中间件</p>
-<ul>
+<li>中间件<ul>
 <li>Redis设计与实现</li>
 <li>实战Nginx:取代Apache的高性能Web服务器</li>
 </ul>
 </li>
-<li><p>项目配置与管理</p>
-<ul>
+<li>项目配置与管理<ul>
 <li>项目自动化之道</li>
 </ul>
 </li>
-<li><p>Ruby</p>
-<ul>
+<li>Ruby<ul>
 <li>Ruby元编程</li>
 <li>Ruby Programming</li>
 </ul>
 </li>
-</ul>
-<ul>
 <li>在读<ul>
 <li>架构真经</li>
 <li>Hadoop技术内幕：深入解析MapReduce 架构设计与实现原理</li>
@@ -133,10 +119,9 @@
     <summary type="html">
     
       &lt;h1 id=&quot;书单&quot;&gt;&lt;a href=&quot;#书单&quot; class=&quot;headerlink&quot; title=&quot;书单&quot;&gt;&lt;/a&gt;书单&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;js&lt;/p&gt;
-&lt;ul&gt;
+&lt;li&gt;js&lt;ul&gt;
 &lt;li&gt;你不知道的javascript上卷     &lt;/li&gt;
-&lt;li&gt;你不知道的javascri
+&lt;li&gt;你不知道的javascript中卷&lt;/li
     
     </summary>
     
